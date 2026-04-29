@@ -8,6 +8,11 @@ public class Main {
         p2.setAge(47);
         p2.setWard("Cardiology");
         p2.printInfo();
+        Staff.displayHospitalInfo();
+        Staff s1 = new Staff("S001","Dr. Nimal Fernando", "Cardiology");
+        Staff s2 = new Staff("S002", "Nurse Priya Perera", "ICU");
+        Staff s3 = new Staff("S003","Dr. Amara Silva", "Neurology");
+        Staff.displayHospitalInfo();
 
 
     }

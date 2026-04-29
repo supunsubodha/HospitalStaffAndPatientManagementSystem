@@ -12,7 +12,12 @@ public class Staff {
         this.department = department;
         staffCount++;
     }
-    public void displayHospitalInfo() {
-
+    public static void displayHospitalInfo() {
+        System.out.println("---Hospital Info---");
+        System.out.println("Hospital : " + HOSPITAL_NAME);
+        System.out.println("Staff count: " + staffCount);
+    }
+    public void displayStaff(){
+        System.out.println("["+staffId+"] "+staffName+"-"+department);
     }
 }
